@@ -65,7 +65,7 @@ ol {
   align-items: flex-start;
   position: relative;
   max-width: 711px;
-  gap: 20px;
+  gap: 16px;
 }
 
 .result__video-container {
@@ -86,6 +86,7 @@ ol {
   gap: 40px;
   width: 100%;
   align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 .content__details {
