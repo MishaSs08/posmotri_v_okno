@@ -264,3 +264,7 @@ input[type='checkbox'] + span {
   margin: 2px;
 }
 
+.search-form__checkbox-list {
+  margin-bottom: 5px;
+}
+
