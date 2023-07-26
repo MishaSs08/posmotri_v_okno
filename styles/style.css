@@ -53,8 +53,8 @@ ol {
 .content {
   padding: 133px 30px;
   gap: 30px;
-  display: grid;
-  grid-template-columns: 711px 399px;
+  display: flex;
+  flex-direction: row;
   margin: auto;
   align-items: end;
 }
@@ -86,7 +86,6 @@ ol {
   gap: 40px;
   width: 100%;
   align-items: flex-end;
-  margin-bottom: 10px;
 }
 
 .content__details {
