@@ -65,7 +65,7 @@ ol {
   align-items: flex-start;
   width: 100%;
   margin-top: 70px;
-  
+  gap:16px;
 }
 
 .result__video-container {
