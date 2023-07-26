@@ -64,17 +64,18 @@ ol {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  margin-top: 70px;
-  gap:16px;
+  gap: 20px;
 }
 
 .result__video-container {
   width: 100%;
   position: relative;
+  max-height: 386px;
 }
 
 .result__video {
   width: 100%;
+  height: inherit;
 }
 
 .search-form {
@@ -84,14 +85,12 @@ ol {
   gap: 40px;
   width: 100%;
   align-items: flex-end;
-  margin-bottom: 20px;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 15px;
 }
 
 .title {
