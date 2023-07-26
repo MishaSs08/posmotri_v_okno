@@ -84,6 +84,7 @@ ol {
   gap: 40px;
   width: 100%;
   align-items: flex-end;
+  margin-bottom: 20px;
 }
 
 .content__details {
