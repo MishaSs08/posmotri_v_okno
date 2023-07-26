@@ -60,8 +60,8 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
   width: 100%;
+  margin-top: 70px;
   
 }
 
@@ -143,6 +143,15 @@ fieldset {
 
 .search-form__textfield {
   appearance: none;
+}
+
+.search-form__fieldset-title {
+  color: #FFF;
+font-family: Fira Sans Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .search-form__fieldset {
@@ -248,3 +257,4 @@ input[type='checkbox'] + span {
   display: block;
   margin: 2px;
 }
+
