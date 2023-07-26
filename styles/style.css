@@ -243,9 +243,9 @@ input[type='checkbox'] + span {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox:before   {
   content: '';
-  position: absolute;
-  inset: 0;
-  margin: auto;
+  display: block;
+  margin-left: 1.4px;
+  margin-top: 1.4px;
   width: 15px;
   height: 15px;
   background: #fff;
