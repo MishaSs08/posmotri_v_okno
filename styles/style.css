@@ -71,6 +71,7 @@ ol {
 .result__video-container {
   width: 100%;
   position: relative;
+  max-height: 386px;
 }
 
 .result__video {
@@ -91,6 +92,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 30px;
 }
 
 .title {
