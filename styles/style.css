@@ -63,7 +63,8 @@ ol {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  position: relative;
+  max-width: 711px;
   gap: 20px;
 }
 
@@ -75,7 +76,7 @@ ol {
 
 .result__video {
   width: 100%;
-  height: inherit;
+  max-height: 386px;
 }
 
 .search-form {
